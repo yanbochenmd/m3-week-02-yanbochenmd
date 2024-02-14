@@ -107,3 +107,12 @@ html {
   .IT{
     color: rgb(172, 130, 3);
   }
+
+  /* 如果有引用其他文字的話，可以參考格式 
+  blockquote {
+  font-style: italic;
+  max-width: 540px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+  }
+  */
