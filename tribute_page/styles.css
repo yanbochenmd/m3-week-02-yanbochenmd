@@ -1,3 +1,12 @@
+::marker {
+  unicode-bidi: isolate;
+  font-variant-numeric: tabular-nums;
+  text-transform: none;
+  text-indent: 0px !important;
+  text-align: start !important;
+  text-align-last: start !important;
+}
+
 html {
     /* Setting a base font size of 10px give us easier rem calculations
          Info: 1rem === 10px, 1.5rem === 15px, 2rem === 20px and so forth
@@ -31,11 +40,10 @@ html {
     font-size: 3.25rem;
   }
   
-  a {
-    color: #477ca7;
-  }
-  
-  a:visited {
+  .link1, .link2, .link3, .link4 {
+    color: #366891;
+  } 
+  .link1:visited, .link2:visited, .link3:visited, .link4:visited{
     color: #74638f;
   }
   
@@ -63,7 +71,7 @@ html {
     background: white;
     padding: 10px;
     margin: 0 auto;
-    max-width: 100vw;
+    max-width: 550px;
   }
   
   #img-caption {
@@ -92,4 +100,10 @@ html {
     margin: 16px 0;
   }
   
+  .travel{
+    text-shadow: 0 0 5px rgb(118, 146, 70);
+  }
   
+  .IT{
+    color: rgb(172, 130, 3);
+  }
